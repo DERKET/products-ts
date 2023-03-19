@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    
+</head>
+
+<body>
+    <style>
+        body { background: url(bg.jpg) }
+      </style> 
+<div class="Caption">
+    <h1> Welcome to the website for hiking equipment rentals </h1>
+</div>
+<div class="adress">
+    <p>Always wanted to try to travel as a team?</p>
+    <p>Or you already have experience in tourism :)</p>
+    <p>We have different sets of equipment for all tastes, for beginners and professionals</p>
+
+    <p>  We look forward to seeing you in the next few days: </p>
+</div>
+<ul>
+    <li style="color: wheat" class="workDays">Monday</li>
+    <li style="color: wheat" class="workDays">Tuesday</li>
+    <li style="color: wheat" class="workDays">Wednesday</li>
+    <li style="color: wheat" class="workDays">Thursday</li>
+    <li style="color: wheat" class="workDays"> Friday</li>
+</ul>
+
+<li style="color: red">Saturday</li>
+<li style="color: red">Sunday</li>
+    <tbody>
+        <tr style="height: 12%;">
+            <td style="width: 12%; height: 35%;"></td>
+            <td style="width: 12%; height: 12%;">
+                <form id="myForm">
+                    <p class="formText">What we have in stock</p>
+                    <select   id="AnyPacks">
+                        <option>Beginner's Tourist Kit (7490rub)</option>
+                        <option>Medimum Tourist Kit (11990rub)</option>
+                        <option>Professional hiker's kit (16990rub)</option>
+                    </select>
+                    <div class="input-group">
+                        <input class="where" type="text" id="Where" placeholder=" " />
+                        <label for="name">Your city</label>
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    <p id="Result"></p>
+    <input type="button" value="Создать заказ" onclick="Send()">
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Montserrat&family=Montserrat+Alternates:ital,wght@1,200&family=Sawarabi+Mincho&display=swap');
+
+
+.Caption {
+    background-color: lightblue;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 35px;
+    opacity: 0.6;
+}
+
+.adress {
+    background-color: lightblue;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 45px;
+    box-shadow: 35px;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+
+body {
+    background: url(https://ibb.co/fqMJxtT);
+}
+
+
+li {
+    font-size: 30px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.AnyPacks {
+    font-size: 15px;
+}
+
+p.formText {
+    font-size: 30px;
+    color: brown;
+}
+
+.WorkDays {
+    color: antiquewhite;
+}
+
